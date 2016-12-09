@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	var value = "";
 
     var events = {
     	data: [
@@ -12,7 +13,7 @@ $(document).ready(function() {
 		"Escape", 
 		"Upgraded Escape", 
 		"Memories", 
-		"Braodway Magic", 
+		"Broadway Magic", 
 		"DPA Group Photo", 
 		"Candid Documentation", 
 		"Headshot", 
@@ -23,7 +24,22 @@ $(document).ready(function() {
 		"Printers"
     	]
     };
-    
+
     $( "#tags" ).easyAutocomplete(events);
+
+    //if user enter on event
+	$("#tags").keydown(function(event){
+		
+		if(event.keyCode == 13) {
+			value = $("#tags").val()
+
+			console.log(value);
+
+			//Clear search field after submit
+			$("#tags").val("");
+
+			return false;
+		}
+	}); // End of keydown event
   
 }); // end ready
