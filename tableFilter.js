@@ -1,42 +1,30 @@
-var ali = {
-	data : wishes, 
-	data : dessert party, 
-	data : bridal,  
-	data : proposal, 
-	data : escape, 
-	data : upgraded escape, 
-	data : memories, 
-	data : braodway magic,  
-	data : candid documentation, 
-	data : group photo, 
-	data : marketing, 
-	data : on-location studio, 
-	data : photopass, 	
-}
-
-var amanda = {
-	data : wishes, 
-	data : dessert party, 
-	data : bridal, 
-	data : mk family session, 
-	data : enhanced,  
-	data : escape, 
-	data : upgraded escape, 
-	data : memories,  
-	data : candid documentation, 
-	data : headshot, 
-} 
-
-var amy = {
-	data : wishes, 
-	data : dessert party, 
-	data : bridal, 
-	data : mk family session, 
-	data : enhanced, 
-	data : escape, 
-	data : upgraded escape, 
-	data : memories,  
-	data : dpa group photo, 
-	data : group photo, 
-	data : on-location studio, 
-}
+$(document).ready(function() {
+  
+console.log("done");
+  $( function() {
+    var availableTags = [
+		"Wishes",
+		"Dessert Party",
+		"Bridal",
+		"MK Family Portrait",
+		"enhanced",
+		"mini", 
+		"proposal", 
+		"escape", 
+		"upgraded escape", 
+		"memories", 
+		"braodway magic", 
+		"dpa group photo", 
+		"candid documentation", 
+		"headshot", 
+		"group photo", 
+		"marketing", 
+		"on-location studio", 
+		"photopass", 
+		"printers"
+    	];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+}); // end ready
