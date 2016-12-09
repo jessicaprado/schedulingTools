@@ -1,30 +1,29 @@
 $(document).ready(function() {
-  
-console.log("done");
-  $( function() {
-    var availableTags = [
+
+    var events = {
+    	data: [
 		"Wishes",
 		"Dessert Party",
 		"Bridal",
 		"MK Family Portrait",
-		"enhanced",
-		"mini", 
-		"proposal", 
-		"escape", 
-		"upgraded escape", 
-		"memories", 
-		"braodway magic", 
-		"dpa group photo", 
-		"candid documentation", 
-		"headshot", 
-		"group photo", 
-		"marketing", 
-		"on-location studio", 
-		"photopass", 
-		"printers"
-    	];
-    $( "#tags" ).autocomplete({
-      source: availableTags
-    });
-  } );
+		"Enhanced",
+		"Mini", 
+		"Proposal", 
+		"Escape", 
+		"Upgraded Escape", 
+		"Memories", 
+		"Braodway Magic", 
+		"DPA Group Photo", 
+		"Candid Documentation", 
+		"Headshot", 
+		"Group Photo", 
+		"Marketing", 
+		"On-Location Studio", 
+		"Photopass", 
+		"Printers"
+    	]
+    };
+    
+    $( "#tags" ).easyAutocomplete(events);
+  
 }); // end ready
