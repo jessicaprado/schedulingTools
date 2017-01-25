@@ -9,16 +9,10 @@ button {
     display: inline-block;
     font-size: 12px;
     margin: 3px;
-}
-
-table {
-	text-align: center;
-	margin-top: 10px;
-}
-
+};
 
 main {
-	display: inline-block;
+    width: 80%;
 	position: relative;
 	float: right;
 }

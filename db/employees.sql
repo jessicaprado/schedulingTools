@@ -1,0 +1,1 @@
+SELECT * FROM scheduling_tools.mk_family_portrait;

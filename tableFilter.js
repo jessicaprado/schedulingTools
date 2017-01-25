@@ -48,132 +48,138 @@ $(document).ready(function() {
 
 	function wishesTable() {
 		for (var i = 0; i < wishes.length; i++) {	
-    		var table = $("<tr><td>" + wishes[i] + "</td></tr>");
+    		var table = $("<tr class=" + wishes[i] + "><td>" + wishes[i] + "</td><td><button class='close' data-name=" + wishes[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};
 
 	function dessertpartyTable() {
 		for (var i = 0; i < dessertparty.length; i++) {	
-    		var table = $("<tr><td>" + dessertparty[i] + "</td></tr>");
+    		var table = $("<tr class=" + dessertparty[i] + "><td>" + dessertparty[i] + "</td><td><button class='close' data-name=" + dessertparty[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function bridalTable() {
 		for (var i = 0; i < bridal.length; i++) {	
-    		var table = $("<tr><td>" + bridal[i] + "</td></tr>");
+    		var table = $("<tr class=" + bridal[i] + "><td>" + bridal[i] + "</td><td><button class='close' data-name=" + bridal[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function mkfamilyportraitTable() {
 		for (var i = 0; i < mkfamilyportrait.length; i++) {	
-    		var table = $("<tr><td>" + mkfamilyportrait[i] + "</td></tr>");
+    		var table = $("<tr class=" + mkfamilyportrait[i] + "><td>" + mkfamilyportrait[i] + "</td><td><button class='close' data-name=" + mkfamilyportrait[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function enhancedTable() {
 		for (var i = 0; i < enhanced.length; i++) {	
-    		var table = $("<tr><td>" + enhanced[i] + "</td></tr>");
+    		var table = $("<tr class=" + enhanced[i] + "><td>" + enhanced[i] + "</td><td><button class='close' data-name=" + enhanced[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function miniTable() {
 		for (var i = 0; i < mini.length; i++) {	
-    		var table = $("<tr><td>" + mini[i] + "</td></tr>");
+    		var table = $("<tr class=" + mini[i] + "><td>" + mini[i] + "</td><td><button class='close' data-name=" + mini[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function proposalTable() {
 		for (var i = 0; i < proposal.length; i++) {	
-    		var table = $("<tr><td>" + proposal[i] + "</td></tr>");
+    		var table = $("<tr class=" + proposal[i] + "><td>" + proposal[i] + "</td><td><button class='close' data-name=" + proposal[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function escapeTable() {
 		for (var i = 0; i < escape.length; i++) {	
-    		var table = $("<tr><td>" + escape[i] + "</td></tr>");
+    		var table = $("<tr class=" + escape[i] + "><td>" + escape[i] + "</td><td><button class='close' data-name=" + escape[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function upgradedescapeTable() {
 		for (var i = 0; i < upgradedescape.length; i++) {	
-    		var table = $("<tr><td>" + upgradedescape[i] + "</td></tr>");
+    		var table = $("<tr class=" + upgradedescape[i] + "><td>" + upgradedescape[i] + "</td><td><button class='close' data-name=" + upgradedescape[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function memoriesTable() {
 		for (var i = 0; i < memories.length; i++) {	
-    		var table = $("<tr><td>" + memories[i] + "</td></tr>");
+    		var table = $("<tr class=" + memories[i] + "><td>" + memories[i] + "</td><td><button class='close' data-name=" + memories[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function broadwaymagicTable() {
 		for (var i = 0; i < broadwaymagic.length; i++) {	
-    		var table = $("<tr><td>" + broadwaymagic[i] + "</td></tr>");
+    		var table = $("<tr class=" + broadwaymagic[i] + "><td>" + broadwaymagic[i] + "</td><td><button class='close' data-name=" + broadwaymagic[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function dpagroupphotoTable() {
 		for (var i = 0; i < dpagroupphoto.length; i++) {	
-    		var table = $("<tr><td>" + dpagroupphoto[i] + "</td></tr>");
+    		var table = $("<tr class=" + dpagroupphoto[i] + "><td>" + dpagroupphoto[i] + "</td><td><button class='close' data-name=" + dpagroupphoto[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function candiddocumentationTable() {
 		for (var i = 0; i < candiddocumentation.length; i++) {	
-    		var table = $("<tr><td>" + candiddocumentation[i] + "</td></tr>");
+    		var table = $("<tr class=" + candiddocumentation[i] + "><td>" + candiddocumentation[i] + "</td><td><button class='close' data-name=" + candiddocumentation[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function headshotTable() {
 		for (var i = 0; i < headshot.length; i++) {	
-    		var table = $("<tr><td>" + headshot[i] + "</td></tr>");
+    		var table = $("<tr class=" + headshot[i] + "><td>" + headshot[i] + "</td><td><button class='close' data-name=" + headshot[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function groupphotoTable() {
 		for (var i = 0; i < groupphoto.length; i++) {	
-    		var table = $("<tr><td>" + groupphoto[i] + "</td></tr>");
+    		var table = $("<tr class=" + groupphoto[i] + "><td>" + groupphoto[i] + "</td><td><button class='close' data-name=" + groupphoto[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function marketingTable() {
 		for (var i = 0; i < marketing.length; i++) {	
-    		var table = $("<tr><td>" + marketing[i] + "</td></tr>");
+    		var table = $("<tr class=" + marketing[i] + "><td>" + marketing[i] + "</td><td><button class='close' data-name=" + marketing[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function onlocationstudioTable() {
 		for (var i = 0; i < onlocationstudio.length; i++) {	
-    		var table = $("<tr><td>" + onlocationstudio[i] + "</td></tr>");
+    		var table = $("<tr class=" + onlocationstudio[i] + "><td>" + onlocationstudio[i] + "</td><td><button class='close' data-name=" + onlocationstudio[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function photopassTable() {
 		for (var i = 0; i < photopass.length; i++) {	
-    		var table = $("<tr><td>" + photopass[i] + "</td></tr>");
+    		var table = $("<tr class=" + photopass[i] + "><td>" + photopass[i] + "</td><td><button class='close' data-name=" + photopass[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function printersTable() {
 		for (var i = 0; i < printers.length; i++) {	
-    		var table = $("<tr><td>" + printers[i] + "</td></tr>");
+    		var table = $("<tr class=" + printers[i] + "><td>" + printers[i] + "</td><td><button class='close' data-name=" + printers[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function floralTable() {
 		for (var i = 0; i < headshot.length; i++) {	
-    		var table = $("<tr><td>" + headshot[i] + "</td></tr>");
+    		var table = $("<tr class=" + headshot[i] + "><td>" + headshot[i] + "</td><td><button class='close' data-name=" + headshot[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 	function ferrytalecruiseTable() {
 		for (var i = 0; i < ferrytalecruise.length; i++) {	
-    		var table = $("<tr><td class='ferrytalecruise'>" + ferrytalecruise[i] + "</td></tr>");
+    		var table = $("<tr class=" + ferrytalecruise[i] + "><td>" + ferrytalecruise[i] + "</td><td><button class='close' data-name=" + ferrytalecruise[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
 
 
 
+$(document.body).on('click', '.close', function(){
+	var closeThisRow = $(this).data('name');
+	if ($('tr').hasClass(closeThisRow)) {
+		$(this).parent().parent().remove();
+	}
+});
 
 $('.wishes').click(function(){
 	$(".table").empty();
