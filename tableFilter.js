@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+// Photographers
 	var wishes = ["Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Ali", "Amanda", "Amy", "Beth", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Jacob", "Jaime", "Joe", ];
 	var dessertparty = ["Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Ali", "Amanda", "Amy", "Beth", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Emily", "Jacob", "Jaime", "Joe", ];
 	var bridal = ["Ty", "Rick", "Amy", "Beth", "Joe", "Mike", "Ty", "Amanda", "Chris", "Jacob", "Stephanie", "Rick", "Daniel", "Ali", "Pedro", "Jaime", "Dawn"];
@@ -21,6 +21,14 @@ $(document).ready(function() {
 	var printers = ["Uma", "Joselyn", "John", "Amanda", "Dawn", "Dean", "Earl", "Hillary", "Jacob", "Jake", ];
 	var floral = ["Jon", "John", "Mercedes"];
 	var ferrytalecruise = ["Eddie", "Jaime", "Meg", "J.R", "Matt", "Uma", "Eric", "Dio", "Cyndi"];
+
+//assists
+	var bridalAssists = ["Alicia", "Andrew", 'Christy', 'Corrine', 'Courtney', 'Dan G', 'Dan F', 'Dawn', 'Denise S', 'Earl', 'Emily', 'Evelyn', 'George', 'Jaime', 'Jennifer M', 'John', 'Joselyn', 'Lindsay', 'Mercedes', 'Michael', 'Uma', 'Jorge', 'Stephanie B', 'Tina'];
+	var familyAssists = ['Alicia', 'Andrew', 'Carla', 'Christy', 'Corrine', 'Courtney', 'Dan G', 'Dan F', 'Dawn', 'Denise S', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'Erica', 'Evelyn', 'George', 'Howie', 'J.R', 'Jackson', 'Jaime', 'John', 'Joselyn', 'Lindsay', 'Matt', 'Mercedes', 'Michael', 'Mike', 'Uma', 'Jorge', 'Stephanie B', 'Tina'];
+	var studiosAssist = ['Alicia', 'Andrew', 'Carla', 'Cassie', 'Christy', 'Corrine', 'Courtney', 'Cyndi','Dan G', 'Dan F', 'Dawn', 'Denise B', 'Denise S', 'Diana', 'Dio', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'Erica', 'Evelyn', 'George', 'Howie', 'J.R', 'Jackson', 'Jaime', 'Jamie Lynn', 'Jennifer', 'John', 'Jon P', 'Joselyn', 'Kathryn', 'Matt', 'Mercedes', 'Mike', 'Uma', 'Jorge', 'Stephanie B', 'Tina', 'Trent', 'Yeni'];
+	var mmdAssists = ['Andrew', 'Carla', 'Christy', 'Courtney', 'Cyndi', 'Dan G', 'Dawn', 'Denise B', 'Denise S', 'Dio', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'George', 'J.R', 'Jackson', 'Jaime', 'John', 'Joselyn', 'Kathryn', 'Matt', 'Mercedes', 'Mike', 'Uma', 'Stephanie B', 'Trent'];
+
+	$('.assistFilter').hide();
 
 	function sort() {
 		bridal = bridal.sort();
@@ -45,6 +53,7 @@ $(document).ready(function() {
 		floral = floral.sort();
 		ferrytalecruise = ferrytalecruise.sort();
 		};
+
 
 	function wishesTable() {
 		for (var i = 0; i < wishes.length; i++) {	
