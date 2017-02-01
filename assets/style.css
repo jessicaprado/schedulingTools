@@ -1,4 +1,8 @@
-.assistOrPhoto  button{
+body {
+    width: 50%;
+}
+
+.assistOrPhoto button{
     vertical-align: middle;
     margin-right: 10px;
     background-color: #5bc0de; 
@@ -13,11 +17,10 @@
 }
 
 .assistOrPhoto {
-    align-content: center;
-    margin: 30px auto 30px auto;
+
 }
 
-.event button {
+button {
     background-color: #5bc0de; 
     border: 2px solid;
     border-radius: 5px;
@@ -34,15 +37,13 @@
     display: none;
 }
 
-.event {
-}
-
-main {
+table {
     width: 80%;
-	position: relative;
-	float: right;
+    margin: 0 auto 0 auto;
 }
 
 
-tr:hover {background-color: #f5f5f5}
+tr:hover {
+    background-color: #f5f5f5
+}
 

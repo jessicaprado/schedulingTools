@@ -22,14 +22,15 @@ $(document).ready(function() {
 	var floral = ["Jon", "John", "Mercedes"];
 	var ferrytalecruise = ["Eddie", "Jaime", "Meg", "J.R", "Matt", "Uma", "Eric", "Dio", "Cyndi"];
 
-//assists
-	var bridalAssists = ["Alicia", "Andrew", 'Christy', 'Corrine', 'Courtney', 'Dan G', 'Dan F', 'Dawn', 'Denise S', 'Earl', 'Emily', 'Evelyn', 'George', 'Jaime', 'Jennifer M', 'John', 'Joselyn', 'Lindsay', 'Mercedes', 'Michael', 'Uma', 'Jorge', 'Stephanie B', 'Tina'];
-	var familyAssists = ['Alicia', 'Andrew', 'Carla', 'Christy', 'Corrine', 'Courtney', 'Dan G', 'Dan F', 'Dawn', 'Denise S', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'Erica', 'Evelyn', 'George', 'Howie', 'J.R', 'Jackson', 'Jaime', 'John', 'Joselyn', 'Lindsay', 'Matt', 'Mercedes', 'Michael', 'Mike', 'Uma', 'Jorge', 'Stephanie B', 'Tina'];
-	var studiosAssist = ['Alicia', 'Andrew', 'Carla', 'Cassie', 'Christy', 'Corrine', 'Courtney', 'Cyndi','Dan G', 'Dan F', 'Dawn', 'Denise B', 'Denise S', 'Diana', 'Dio', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'Erica', 'Evelyn', 'George', 'Howie', 'J.R', 'Jackson', 'Jaime', 'Jamie Lynn', 'Jennifer', 'John', 'Jon P', 'Joselyn', 'Kathryn', 'Matt', 'Mercedes', 'Mike', 'Uma', 'Jorge', 'Stephanie B', 'Tina', 'Trent', 'Yeni'];
-	var mmdAssists = ['Andrew', 'Carla', 'Christy', 'Courtney', 'Cyndi', 'Dan G', 'Dawn', 'Denise B', 'Denise S', 'Dio', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'George', 'J.R', 'Jackson', 'Jaime', 'John', 'Joselyn', 'Kathryn', 'Matt', 'Mercedes', 'Mike', 'Uma', 'Stephanie B', 'Trent'];
+	//hides assist buttons
+	$('.assistEvent').hide();
 
-	$('.assistFilter').hide();
+	$('.photographers').on('click', function(){
+		$('.assistEvent').hide();
+		$('.photographerEvent').show();
+	})
 
+	//alphabetical sorts each array
 	function sort() {
 		bridal = bridal.sort();
 		wishes = wishes.sort();
@@ -181,139 +182,138 @@ $(document).ready(function() {
     		$(table).appendTo(".table");
 		}};	
 
+	//will delete table row 
+	$(document.body).on('click', '.close', function(){
+		var closeThisRow = $(this).data('name');
+		if ($('tr').hasClass(closeThisRow)) {
+			$(this).parent().parent().remove();
+		}
+	});
 
+	$('.wishes').click(function(){
+		$(".table").empty();
+		sort();
+	    wishesTable()
+	});
 
-$(document.body).on('click', '.close', function(){
-	var closeThisRow = $(this).data('name');
-	if ($('tr').hasClass(closeThisRow)) {
-		$(this).parent().parent().remove();
-	}
-});
+	$('.dessertparty').click(function(){
+		$(".table").empty();
+		sort();
+	    dessertpartyTable()
+	});
 
-$('.wishes').click(function(){
-	$(".table").empty();
-	sort();
-    wishesTable()
-});
+	$('.bridal').click(function(){
+		$(".table").empty();
+		sort();
+	    bridalTable()
+	});
 
-$('.dessertparty').click(function(){
-	$(".table").empty();
-	sort();
-    dessertpartyTable()
-});
+	$('.mkfamilyportrait').click(function(){
+		$(".table").empty();
+		sort();
+	    mkfamilyportraitTable()
+	});
 
-$('.bridal').click(function(){
-	$(".table").empty();
-	sort();
-    bridalTable()
-});
+	$('.enhanced').click(function(){
+		$(".table").empty();
+		sort();
+	    enhancedTable()
+	});
 
-$('.mkfamilyportrait').click(function(){
-	$(".table").empty();
-	sort();
-    mkfamilyportraitTable()
-});
+	$('.mini').click(function(){
+		$(".table").empty();
+		sort();
+	    miniTable()
+	});
 
-$('.enhanced').click(function(){
-	$(".table").empty();
-	sort();
-    enhancedTable()
-});
+	$('.proposal').click(function(){
+		$(".table").empty();
+		sort();
+	    proposalTable()
+	});
 
-$('.mini').click(function(){
-	$(".table").empty();
-	sort();
-    miniTable()
-});
+	$('.escape').click(function(){
+		$(".table").empty();
+		sort();
+	    escapeTable()
+	});
 
-$('.proposal').click(function(){
-	$(".table").empty();
-	sort();
-    proposalTable()
-});
+	$('.upgradedescape').click(function(){
+		$(".table").empty();
+		sort();
+	    upgradedescapeTable()
+	});
 
-$('.escape').click(function(){
-	$(".table").empty();
-	sort();
-    escapeTable()
-});
+	$('.memories').click(function(){
+		$(".table").empty();
+		sort();
+	    memoriesTable()
+	});
 
-$('.upgradedescape').click(function(){
-	$(".table").empty();
-	sort();
-    upgradedescapeTable()
-});
+	$('.broadwaymagic').click(function(){
+		$(".table").empty();
+		sort();
+	    broadwaymagicTable()
+	});
 
-$('.memories').click(function(){
-	$(".table").empty();
-	sort();
-    memoriesTable()
-});
+	$('.dpagroupphoto').click(function(){
+		$(".table").empty();
+		sort();
+	    dpagroupphotoTable()
+	});
 
-$('.broadwaymagic').click(function(){
-	$(".table").empty();
-	sort();
-    broadwaymagicTable()
-});
+	$('.candiddocumentation').click(function(){
+		$(".table").empty();
+		sort();
+	    candiddocumentationTable()
+	});
 
-$('.dpagroupphoto').click(function(){
-	$(".table").empty();
-	sort();
-    dpagroupphotoTable()
-});
+	$('.headshot').click(function(){
+		$(".table").empty();
+		sort();
+	    headshotTable()
+	});
 
-$('.candiddocumentation').click(function(){
-	$(".table").empty();
-	sort();
-    candiddocumentationTable()
-});
+	$('.groupphoto').click(function(){
+		$(".table").empty();
+		sort();
+	    groupphotoTable()
+	});
 
-$('.headshot').click(function(){
-	$(".table").empty();
-	sort();
-    headshotTable()
-});
+	$('.marketing').click(function(){
+		$(".table").empty();
+		sort();
+	    marketingTable()
+	});
 
-$('.groupphoto').click(function(){
-	$(".table").empty();
-	sort();
-    groupphotoTable()
-});
+	$('.onlocationstudio').click(function(){
+		$(".table").empty();
+		sort();
+	    onlocationstudioTable()
+	});
 
-$('.marketing').click(function(){
-	$(".table").empty();
-	sort();
-    marketingTable()
-});
+	$('.photopass').click(function(){
+		$(".table").empty();
+		sort();
+	    photopassTable()
+	});
 
-$('.onlocationstudio').click(function(){
-	$(".table").empty();
-	sort();
-    onlocationstudioTable()
-});
+	$('.printers').click(function(){
+		$(".table").empty();
+		sort();
+	    printersTable()
+	});
 
-$('.photopass').click(function(){
-	$(".table").empty();
-	sort();
-    photopassTable()
-});
+	$('.floral').click(function(){
+		$(".table").empty();
+		sort();
+	    floralTable()
+	});
 
-$('.printers').click(function(){
-	$(".table").empty();
-	sort();
-    printersTable()
-});
-
-$('.floral').click(function(){
-	$(".table").empty();
-	sort();
-    floralTable()
-});
-
-$('.ferrytalecruise').click(function(){
-	$(".table").empty();
-	sort();
-    ferrytalecruiseTable()
-});
+	$('.ferrytalecruise').click(function(){
+		$(".table").empty();
+		sort();
+	    ferrytalecruiseTable()
+	});
 
 }); // end ready
