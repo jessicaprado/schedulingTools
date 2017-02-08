@@ -4,7 +4,7 @@ body {
 
 .assistOrPhoto button{
     vertical-align: middle;
-    margin-right: 10px;
+    margin-left: 1%;
     background-color: #5bc0de; 
     border: 2px solid;
     border-radius: 5px;
@@ -13,11 +13,11 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .assistOrPhoto {
-
+    margin-left: 23%;
 }
 
 button {
