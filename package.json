@@ -1,0 +1,22 @@
+{
+  "name": "schedulingtools",
+  "version": "0.0.1",
+  "description": "filters through employees",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicaprado/schedulingTools.git"
+  },
+  "author": "jessicaprado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicaprado/schedulingTools/issues"
+  },
+  "homepage": "https://github.com/jessicaprado/schedulingTools#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
