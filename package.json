@@ -1,4 +1,4 @@
-{
+/*{
   "name": "schedulingtools",
   "version": "0.0.1",
   "description": "filters through employees",
@@ -20,3 +20,4 @@
     "electron-prebuilt": "^1.4.13"
   }
 }
+*/
