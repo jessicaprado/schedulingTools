@@ -1,4 +1,3 @@
-$(document).ready(function() {
 //assists
 	var bridalAssists = ["Alicia", "Andrew", 'Christy', 'Corrine', 'Courtney', 'Dan G', 'Dan F', 'Dawn', 'Denise S', 'Earl', 'Emily', 'Evelyn', 'George', 'Jaime', 'Jennifer M', 'John', 'Joselyn', 'Lindsay', 'Mercedes', 'Michael', 'Uma', 'Jorge', 'Stephanie B', 'Tina'];
 	var familyAssists = ['Alicia', 'Andrew', 'Carla', 'Christy', 'Corrine', 'Courtney', 'Dan G', 'Dan F', 'Dawn', 'Denise S', 'Earl', 'Eddie', 'Emily', 'Eric H', 'Eric W', 'Erica', 'Evelyn', 'George', 'Howie', 'J.R', 'Jackson', 'Jaime', 'John', 'Joselyn', 'Lindsay', 'Matt', 'Mercedes', 'Michael', 'Mike', 'Uma', 'Jorge', 'Stephanie B', 'Tina'];
@@ -75,4 +74,3 @@ $(document).ready(function() {
 	    mmdAssistTable()
 	});	
 
-})//end ready

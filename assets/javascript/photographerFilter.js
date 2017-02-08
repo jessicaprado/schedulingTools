@@ -1,4 +1,3 @@
-$(document).ready(function() {
 // Photographers
 	var wishes = ["Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Ali", "Amanda", "Amy", "Beth", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Jacob", "Jaime", "Joe", ];
 	var dessertparty = ["Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Ali", "Amanda", "Amy", "Beth", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Emily", "Jacob", "Jaime", "Joe", ];
@@ -315,5 +314,3 @@ $(document).ready(function() {
 		sort();
 	    ferrytalecruiseTable()
 	});
-
-}); // end ready
