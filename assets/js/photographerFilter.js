@@ -12,7 +12,7 @@
 	var broadwaymagic = ["Michael", "Joselyn", "John", "Joe", "Ali", "Amanda", "Daniel", "Daryn", "Dawn", "Dean", "Earl", "Emily", "Jacob", "Jaime", "Jake", "Jessica", ];
 	var dpagroupphoto = ["Joselyn", "John", "Dan", "Daryn", "Dawn", "Dean", "Earl", "Emily", "Jacob", "Jaime", "Jake", ];
 	var candiddocumentation = ["Courtney", "Trent", "Tina", "Joselyn", "John", "Ali", "Daryn", "Dawn", "Dean", "Earl", "Emily", "Jacob", "Jaime", "Jake", ];
-	var headshot = ["Bill", "Beth" "Mike", "Joe", "Amanda", "Daniel", "Hillary", "Jacob", ];
+	var headshot = ["Bill", "Beth", "Mike", "Joe", "Amanda", "Daniel", "Hillary", "Jacob", ];
 	var groupphoto = ["Ali", "Daniel", "John", "Ali", "Daryn", "Dawn", "Dean", "Earl", "Jacob", "Jaime", "Jake", ];
 	var marketing = ["John", "Ali", "Daniel", "Jacob", "Jaime", "Jake", ];
 	var onlocationstudio = ["Trent", "Tina", "Uma", "Michael", "Mercedes", "Meg", "Matt", "Joselyn", "John", "Ali", "Amanda", "Dan", "Daryn", "Jessica", "Dawn", "Dean", "Dio", "Earl", "Eddie", "Emily", "Eric", "Jackson", "Jake", "Jacob", "Jaime", ];
