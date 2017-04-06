@@ -1,8 +1,9 @@
 // Photographers
 	var wishes = ["Lisa", "Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Ali", "Amanda", "Amy", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Jacob", "Jaime", "Joe", ];
 	var dessertparty = ["Jake", "Courtney", "Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Ali", "Amanda", "Amy", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Emily", "Jacob", "Jaime", "Joe", ];
-	var bridal = ["Amy", "Joe", "Mike", "Ty", "Amanda", "Chris", "Jacob", "Stephanie", "Rick", "Daniel", "Ali", "Pedro", "Jaime", "Dawn"];
+	var bridal = ["Amy", "Joe", "Mike", "Ty", "Amanda", "Chris", "Jacob", "Stephanie", "Rick", "Daniel", "Pedro", "Jaime", "Dawn"];
 	var mkfamilyportrait = ["Stephanie", "Rick", "Pedro", "Mike", "Amanda", "Amy", "Brittany", "Chris", "Daniel", "Dawn", "Jacob", "Jaime", "Jake", ];
+	var mkmini = ["Dawn", "Earl", "Jaime", "Joselyn", "Michael", "Emily", "Jackson"];
 	var enhanced = ["Ty", "Stephanie", "Rick", "Pedro", "Mike", "Amanda", "Amy", "Joe", "Brittany", "Chris", "Dan", "Daniel", "Daryn", "Dawn", "Dean", "Earl", "Emily", "Jackson", "Jaime", "Jake", ];
 	var mini = ["Michael", "Mercedes", "Joselyn", "Andrew", "Carla", "Christy", "Dan", "Dawn", "Dio", "Earl", "Emily", "Eric", "Jackson", "Jaime", ];
 	var proposal = ["Michael", "Joselyn", "John", "Ali", "Daryn", "Dawn", "Earl", "Emily", "Jacob", "Jaime", "Jake", ];
@@ -35,6 +36,7 @@
 		wishes = wishes.sort();
 		dessertparty = dessertparty.sort();
 		mkfamilyportrait = mkfamilyportrait.sort();
+		mkmini = mkmini.sort();
 		enhanced = enhanced.sort();
 		mini = mini.sort();
 		proposal = proposal.sort();
@@ -78,6 +80,12 @@
     		var table = $("<tr class=" + mkfamilyportrait[i] + "><td>" + mkfamilyportrait[i] + "</td><td><button class='close' data-name=" + mkfamilyportrait[i] + "> I already asked! </button></td></tr>");
     		$(table).appendTo(".table");
 		}};	
+
+	function mkminiTable() {
+		for (var i = 0; i < mkmini.length; i++) {	
+   		var table = $("<tr class=" + mkmini[i] + "><td>" + mkmini[i] + "</td><td><button class='close' data-name=" + mkmini[i] + "> I already asked! </button></td></tr>");
+   		$(table).appendTo(".table");
+	}};	
 
 	function enhancedTable() {
 		for (var i = 0; i < enhanced.length; i++) {	
@@ -211,6 +219,12 @@
 		$(".table").empty();
 		sort();
 	    mkfamilyportraitTable()
+	});
+
+	$('.mkmini').click(function(){
+		$(".table").empty();
+		sort();
+	    mkminiTable()
 	});
 
 	$('.enhanced').click(function(){
