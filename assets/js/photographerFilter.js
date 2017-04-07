@@ -5,7 +5,7 @@
 	var mkfamilyportrait = ["Stephanie", "Rick", "Pedro", "Mike", "Amanda", "Amy", "Brittany", "Chris", "Daniel", "Dawn", "Jacob", "Jaime", "Jake", ];
 	var mkmini = ["Dawn", "Earl", "Jaime", "Joselyn", "Michael", "Emily", "Jackson"];
 	var enhanced = ["Ty", "Stephanie", "Rick", "Pedro", "Mike", "Amanda", "Amy", "Joe", "Brittany", "Chris", "Dan", "Daniel", "Daryn", "Dawn", "Dean", "Earl", "Emily", "Jackson", "Jaime", "Jake", ];
-	var mini = ["Michael", "Mercedes", "Joselyn", "Andrew", "Carla", "Christy", "Dan", "Dawn", "Dio", "Earl", "Emily", "Eric", "Jackson", "Jaime", ];
+	var mini = ["Michael", "Mercedes", "Joselyn", "Andrew", "Christy", "Dan", "Dawn", "Dio", "Earl", "Emily", "Eric", "Jackson", "Jaime", ];
 	var proposal = ["Michael", "Joselyn", "John", "Ali", "Daryn", "Dawn", "Earl", "Emily", "Jacob", "Jaime", "Jake", ];
 	var escape = ["Jake", "Ty", "Stephanie", "Rick", "Pedro", "Mike", "Joe", "Ali", "Amanda", "Amy", "Brittany", "Chris", "Daniel", "Daryn", "Dean", "Jacob", "Jaime", ];
 	var upgradedescape = ["Courtney", "Jake", "Ty", "Trent", "Tina", "Stephanie", "Rick", "Pedro", "Mike", "Joe", "Ali", "Amanda", "Amy", "Brittany", "Chris", "Daniel", "Daryn", "Dawn", "Dean", "Jacob", "Jaime", ];
