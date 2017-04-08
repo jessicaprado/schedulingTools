@@ -1,0 +1,46 @@
+
+/** Resets **/
+
+/** Typography **/
+
+/** Page Structure **/
+
+/** Header & Navigation **/
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar button {
+    border: none;
+    color: black;
+    width: 25%;
+    margin-right: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Delius', cursive;
+    font-size: 18px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+}
+
+.side button {
+    border: none;
+    color: black;
+    width: 90%;
+    margin-top: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Delius', cursive;
+    font-size: 18px;
+}
+/** Content & Media **/
+
+/** Footer **/
+
+/** Miscellaneous **/
+
