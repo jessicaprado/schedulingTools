@@ -8,7 +8,7 @@ function Event() {
         scope: {
             eventData: "="
         },
-        templateUrl: '/schedulingTools/features/components/event/event.html',
+        templateUrl: '/app/schedulingTools/features/components/event/event.html',
         controller: EventCtrl,
         controllerAs: 'EventVM',
         bindToController: true

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Scheduling Tools</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="app/schedulingTools/layout/assets/style/style.css">
+    </head>
+
+    <body ng-app="schedulingTools">
+        <div class="content">
+            <ui-view></ui-view>
+        </div>
+
+        <script src="app/schedulingTools/schedulingTools.module.js"></script>
+
+        <script src="app/schedulingTools/features/assist/assist.module.js"></script>
+        <script src="app/schedulingTools/features/assist/assist.controller.js"></script>
+        <script src="app/schedulingTools/features/assist/assist.routes.js"></script>
+
+        <script src="app/schedulingTools/features/photographer/photographer.module.js"></script>
+        <script src="app/schedulingTools/features/photographer/photographer.controller.js"></script>
+        <script src="app/schedulingTools/features/photographer/photographer.routes.js"></script>
+
+        <script src="app/schedulingTools/features/components/event/event.module.js"></script>
+        <script src="app/schedulingTools/features/components/event/event.directive.js"></script>
+
+        <script src="app/schedulingTools/features/components/table/table.module.js"></script>
+        <script src="app/schedulingTools/features/components/table/table.service.js"></script>
+
+        <script src="app/schedulingTools/features/components/navBar/navBar.module.js"></script>
+        <script src="app/schedulingTools/features/components/navBar/navBar.directive.js"></script>
+    </body>
+</html>

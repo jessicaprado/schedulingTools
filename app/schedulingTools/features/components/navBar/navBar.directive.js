@@ -8,7 +8,7 @@ function NavBar() {
         scope: {
             navBarData: "="
         },
-        templateUrl: '/schedulingTools/features/components/navBar/navBar.html',
+        templateUrl: '/app/schedulingTools/features/components/navBar/navBar.html',
         controller: NavBarCtrl,
         controllerAs: 'NavBarVM',
         bindToController: true
