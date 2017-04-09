@@ -8,7 +8,7 @@
         </button>
     </div>
     <div class="col-md-6">
-        <table class="table" ng-repeat="photographer in PhotoVM.selectedPhotographers | orderBy : photographer">
+        <table class="table-condensed" ng-repeat="photographer in PhotoVM.selectedPhotographers | orderBy : photographer">
             <tr><td class="photographer">{{photographer}}</td>
                 <td class="close"
                 ng-click="PhotoVM.close(photographer)">unavailable</td>

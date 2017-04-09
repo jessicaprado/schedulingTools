@@ -46,16 +46,19 @@ body {
     font-size: 18px;
 }
 /** Content & Media **/
-.table {
+.table-condensed {
+    background-color: rgba(245, 245, 245, 0.2);
     margin: 0 auto;
     width: 40%;
-    border: 1px solid black;
+    font-family: 'Delius', cursive;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
 }
 
+.assist,
 .photographer {
     width: 50%;
     text-align: center;
-    font-family: 'Delius', cursive;
     font-size: 18px;
 }
 
@@ -63,10 +66,11 @@ body {
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    font-family: 'Delius', cursive;
     font-size: 16px;
 }
 /** Footer **/
 
 /** Miscellaneous **/
-
+.col-md-6 {
+    margin-bottom: 20px;
+}

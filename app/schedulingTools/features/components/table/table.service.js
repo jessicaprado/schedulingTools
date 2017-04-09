@@ -8,7 +8,7 @@ function TableService($http) {
         getList: function (table) {
             $http({
                 method: 'GET',
-                url: '/api/table'
+                url: '/api/photographers'
             }).then(function (response) {
                 response.data.events.forEach(function (element) {
                     table.push(element);
@@ -16,6 +16,16 @@ function TableService($http) {
             });
         },
 
+        getAssist: function (table) {
+            $http({
+                method: 'GET',
+                url: '/api/assists'
+            }).then(function (response) {
+                response.data.events.forEach(function (element) {
+                    table.push(element);
+                });
+            });
+        },
 
     }
 }

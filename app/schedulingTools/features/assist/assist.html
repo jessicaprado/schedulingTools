@@ -1,4 +1,17 @@
 <nav-bar></nav-bar>
-<assist-bar></assist-bar>
-
-Hello Assists!
+<div class="row">
+    <div class="side col-md-3">
+        <button ng-repeat="assistBar in AssistVM.assists"
+                ng-click="AssistVM.change(assistBar.assists)"
+        > {{assistBar.name}}
+        </button>
+    </div>
+    <div class="col-md-6">
+        <table class="table-condensed" ng-repeat="assist in AssistVM.selectedAssist | orderBy : assist">
+            <tr><td class="assist">{{assist}}</td>
+                <td class="close"
+                    ng-click="AssistVM.close(assist)">unavailable</td>
+            </tr>
+        </table>
+    </div>
+</div>

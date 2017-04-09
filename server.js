@@ -11,7 +11,8 @@ app.use(bodyParser.json({ type: 'application/*+json' }));
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 app.use(bodyParser.text({ type: 'text/html' }));
 
-var getRoute = require("./api/get-photographer.js")(app);
+var getPhotographer = require("./api/get-photographer.js")(app);
+var getAssist = require("./api/get-assist.js")(app);
 
 app.listen(PORT, function() {
     console.log ("Listening in on PORT " + PORT);
