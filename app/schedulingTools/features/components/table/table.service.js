@@ -10,11 +10,12 @@ function TableService($http) {
                 method: 'GET',
                 url: '/api/table'
             }).then(function (response) {
-                console.log(response.data.events);
                 response.data.events.forEach(function (element) {
                     table.push(element);
                 });
             });
         },
+
+
     }
 }

@@ -2,14 +2,17 @@
 
 <div class="row">
     <div class="side col-md-3">
-        <button ng-repeat='photoBar in PhotoVM.photoButtons'
-                ng-click="PhotoVM.showPhotographers(photoBar.link)"
-        >{{photoBar.name}}
+        <button ng-repeat="photoBar in PhotoVM.photographers"
+                ng-click="PhotoVM.change(photoBar.photographers)"
+        > {{photoBar.name}}
         </button>
     </div>
-
-    <div class="table col-md-10"
-        >
-
+    <div class="col-md-6">
+        <table class="table" ng-repeat="photographer in PhotoVM.selectedPhotographers | orderBy : photographer">
+            <tr><td class="photographer">{{photographer}}</td>
+                <td class="close"
+                ng-click="PhotoVM.close(photographer)">unavailable</td>
+            </tr>
+        </table>
     </div>
 </div>
