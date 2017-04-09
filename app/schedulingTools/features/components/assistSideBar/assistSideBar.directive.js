@@ -23,28 +23,4 @@ function AssistBarCtrl() {
             'family',
             'studio',
             'mmd']
-        // photographer: [
-        //     'bridal',
-        //     'candid doc',
-        //     'dessert party',
-        //     'dpa group',
-        //     'enhanced',
-        //     'escape',
-        //     'ferry tale',
-        //     'floral',
-        //     'group photo',
-        //     'headshot',
-        //     'marketing',
-        //     'memories',
-        //     'mini session',
-        //     'mk mini',
-        //     'mk enhanced',
-        //     'on location studio',
-        //     'photopass',
-        //     'printers',
-        //     'proposal',
-        //     'upgraded escape',
-        //     'wishes'
-        // ]
-
 }

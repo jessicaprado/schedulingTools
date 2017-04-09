@@ -1,3 +1,15 @@
 <nav-bar></nav-bar>
 
-Hello Photographers!
+<div class="row">
+    <div class="side col-md-3">
+        <button ng-repeat='photoBar in PhotoVM.photoButtons'
+                ng-click="PhotoVM.showPhotographers(photoBar.link)"
+        >{{photoBar.name}}
+        </button>
+    </div>
+
+    <div class="table col-md-10"
+        >
+
+    </div>
+</div>
