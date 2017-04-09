@@ -3,21 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jessicaprado/schedulingTools.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jessicaprado/schedulingTools/issues"
   },
-  "homepage": "https://github.com/jessicaprado/schedulingTools#readme"
+  "homepage": "https://github.com/jessicaprado/schedulingTools#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
 }
