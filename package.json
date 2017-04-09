@@ -6,7 +6,6 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "gulp": "^3.9.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
