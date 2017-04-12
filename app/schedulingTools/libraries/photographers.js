@@ -257,6 +257,7 @@ module.exports = {
         name: 'On-Location Studio',
         link: 'ols',
         photographers: [
+            'Alicia',
             "Trent",
             "Tina",
             "Uma",
@@ -286,6 +287,7 @@ module.exports = {
         name: 'Photopass',
         link: 'photopass',
         photographers: [
+            'Alicia',
             "Christy",
             "Trent",
             "Tina",
