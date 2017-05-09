@@ -1,76 +1,112 @@
-
-/** Resets **/
-
-
-/** Typography **/
-
-/** Page Structure **/
 body {
-    background: #007991; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: arial;
+  background: #f8f9fb;
 }
 
-/** Header & Navigation **/
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #007991;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #007991, #78ffd6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .navbar {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .navbar button {
-    background-color: rgba(245, 245, 245, 0.5);
-    border: none;
-    color: black;
-    width: 25%;
-    margin-right: 5px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: 'Delius', cursive;
-    font-size: 18px;
+  width: 25%;
+  background-color: rgba(245, 245, 245, 0.5);
+  border: none;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Delius", cursive;
+  font-size: 18px;
 }
 
 .side {
-    display: flex;
-    flex-direction: column;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .side button {
-    background-color: rgba(245, 245, 245, 0.5);
-    border: none;
-    color: black;
-    margin-top: 5px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: 'Delius', cursive;
-    font-size: 18px;
+  background-color: rgba(245, 245, 245, 0.5);
+  border: none;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Delius", cursive;
+  font-size: 18px;
+  margin-top: 5px;
 }
-/** Content & Media **/
+
 .table-condensed {
-    background-color: rgba(245, 245, 245, 0.2);
-    margin: 0 auto;
-    width: 40%;
-    font-family: 'Delius', cursive;
-    border: 1px solid antiquewhite;
-    border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.2);
+  margin: 0 auto;
+  width: 40%;
+  font-family: "Delius", cursive;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
 }
 
 .assist,
 .photographer {
-    width: 50%;
-    text-align: center;
-    font-size: 18px;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
 }
 
 .close {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 16px;
+  width: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  font-size: 16px;
 }
-/** Footer **/
 
-/** Miscellaneous **/
 .col-md-6 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }

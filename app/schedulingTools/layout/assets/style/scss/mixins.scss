@@ -1,0 +1,10 @@
+@mixin buttonFormat {
+  background-color: $buttonColor;
+  border: none;
+  color: black;
+  margin-right: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: $font;
+  font-size: 18px;
+}

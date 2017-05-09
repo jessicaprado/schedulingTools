@@ -1,0 +1,56 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+body {
+  background: #007991; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navbar button {
+  width: 25%;
+  @include buttonFormat;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+    button {
+      @include buttonFormat;
+      margin-top: 5px;
+  }
+}
+
+.table-condensed {
+  background-color: $tableColor;
+  margin: 0 auto;
+  width: 40%;
+  font-family: $font;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+}
+
+.assist,
+.photographer {
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.close {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+
+.col-md-6 {
+  margin-bottom: 20px;
+}
