@@ -1,14 +1,17 @@
-angular
-    .module('schedulingTools', [
-        //global dependencies
-        'ui.router',
+(function() {
 
-        //features
-        'schedulingTools.photographer',
-        'schedulingTools.assist'
-    ])
-    .config(appConfig);
+	angular
+		.module('schedulingTools', [
+			//global dependencies
+			'ui.router',
 
-function appConfig($urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
-}
+			//features
+			'schedulingTools.photographer',
+			'schedulingTools.assist'
+			])
+		.config(appConfig);
+
+	function appConfig($urlRouterProvider) {
+		$urlRouterProvider.otherwise('/');
+	}
+})();

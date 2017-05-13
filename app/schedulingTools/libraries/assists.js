@@ -3,8 +3,8 @@ module.exports = {
         name: 'Bridal Portraits',
         link: 'bridal',
         assists: [
-            "Alicia",
-            "Andrew",
+            'Alicia',
+            'Andrew',
             'Christy',
             'Corrine',
             'Courtney',
