@@ -38,3 +38,7 @@ gulp.task('sass', function(){
 		.pipe(sass())
 		.pipe(gulp.dest('app/schedulingTools/layout/assets/style/css'))
 })
+
+gulp.task('watch', function () {
+	gulp.watch('app/schedulingTools/layout/assets/style/scss/style.scss', ['sass']);
+})

@@ -33,3 +33,5 @@ Desktop.ini
 
 #Misc
 *.log
+
+node_modules
