@@ -1,46 +1,34 @@
 body {
   font-family: arial;
-  background: #f8f9fb;
-}
+  background: #f8f9fb; }
 
 html, body, ul, ol, li, form, fieldset, legend {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 fieldset, img {
-  border: 0;
-}
+  border: 0; }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 .wrapper {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  background-image: linear-gradient(to right, #007991, #78ffd6);
-}
+  background-image: linear-gradient(to right, #007991, #78ffd6); }
 
 .navbar {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .navbar button {
   width: 25%;
@@ -51,29 +39,21 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-family: "Delius", cursive;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .side {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.side button {
-  background-color: rgba(245, 245, 245, 0.5);
-  border: none;
-  color: black;
-  margin-right: 5px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: "Delius", cursive;
-  font-size: 18px;
-  margin-top: 5px;
-}
+  flex-direction: column; }
+  .side button {
+    background-color: rgba(245, 245, 245, 0.5);
+    border: none;
+    color: black;
+    margin-right: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Delius", cursive;
+    font-size: 18px;
+    margin-top: 5px; }
 
 .table-condensed {
   background-color: rgba(245, 245, 245, 0.2);
@@ -81,27 +61,19 @@ body {
   width: 40%;
   font-family: "Delius", cursive;
   border: 1px solid antiquewhite;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .assist,
 .photographer {
   width: 50%;
   text-align: center;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .close {
   width: 50%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .col-md-6 {
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }

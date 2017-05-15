@@ -34,7 +34,7 @@ gulp.task('compress-js', function(){
 
 gulp.task('sass', function(){
 	return gulp
-		.src('.app/schedulingTools/layout/assets/style/scss/style.scss')
+		.src('app/schedulingTools/layout/assets/style/scss/style.scss')
 		.pipe(sass())
-		.pipe(gulp.dest('.app/schedulingTools/layout/assets/style/css'))
+		.pipe(gulp.dest('app/schedulingTools/layout/assets/style/css'))
 })
