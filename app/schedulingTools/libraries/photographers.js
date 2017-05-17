@@ -99,6 +99,7 @@ module.exports = {
             'Dean',
             'Earl',
             'Emily',
+            'Michael',
             'Jackson',
             'Jaime',
             'Jake'
@@ -221,7 +222,9 @@ module.exports = {
             'Emily',
             'Eric',
             'Jackson',
-            'Jaime'
+            'Jaime',
+            'Jorge',
+            'Jeff'
         ]
     }, {
         name: 'Magic Kingdom Mini',
