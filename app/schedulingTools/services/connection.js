@@ -8,7 +8,7 @@ db.on('error', function(error){
 });
 
 db.once('open', function(){
-	console.log("DB connected")
+	console.log('Ready to start some ish')
 });
 
 module.exports = db;

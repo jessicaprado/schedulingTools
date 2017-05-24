@@ -1,11 +1,11 @@
 var gulp = require('gulp');
-var jscs = require('gulp-jscs');
-var uglify = require('gulp-uglify');
-var sass = require('gulp-sass');
+var cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var css = require('gulp-css');
-var cleanCSS = require('gulp-clean-css');
 var inject = require('gulp-inject');
+var jscs = require('gulp-jscs');
+var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
 
 gulp.task('inject', function () {
 	var target = gulp.src('./app/index.html');
@@ -21,13 +21,13 @@ gulp.task('inject', function () {
     .pipe(gulp.dest('./app'));
 });
 
-gulp.task('syntax', function() {
+gulp.task('format-check', function() {
 	return gulp
 		.src([
 			'./app/schedulingTools/*.js',
 			'./app/schedulingTools/features/**/*.js',
-			'./appschedulingTools/libraries/*.js',
-			'./appschedulingTools/services/*.js',
+			'./app/schedulingTools/libraries/*.js',
+			'./app/schedulingTools/services/*.js',
 			'./*.js'
 		])
         .pipe(jscs())

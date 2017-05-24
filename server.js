@@ -1,7 +1,9 @@
 var express = require('express');
 var app = express();
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
 PORT = process.env.PORT || 3000;
+
+var db = require('./app/schedulingTools/services/connection');
 
 app.use(express.static(__dirname + '/app'));
 
@@ -15,5 +17,5 @@ var getPhotographer = require('./routes/api/photographers/photographerCRUD.js')(
 var getAssist = require('./routes/api//assists/assistCRUD.js')(app);
 
 app.listen(PORT, function() {
-    console.log ('Listening in on PORT ' + PORT);
+    console.log ('Stalking you on ' + PORT);
 })

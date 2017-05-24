@@ -48,6 +48,7 @@
 "requireSpaceBeforeBlockStatements": 1,
 
 "validateQuoteMarks": "'",
-"disallowSpacesInsideArrayBrackets": "all"
+"disallowSpacesInsideArrayBrackets": "all",
+"requirePaddingNewLinesAfterUseStrict": true
 
 }
