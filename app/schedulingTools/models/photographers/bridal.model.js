@@ -4,6 +4,9 @@ mongoose.Promise = Promise;
 var Schema = mongoose.Schema;
 
 var bridal = new Schema ({
+	event: {
+		type
+	},
     photographer: {
 		type: String
 	},
