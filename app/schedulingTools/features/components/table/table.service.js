@@ -25,7 +25,7 @@ function TableService($http) {
                     table.push(element);
                 });
             });
-        },
+        }
 
     }
 }

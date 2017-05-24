@@ -6,7 +6,7 @@ function Event() {
     return {
         restrict: 'E',
         scope: {
-            eventData: "="
+            eventData: '='
         },
         templateUrl: '/schedulingTools/features/components/event/event.html',
         controller: EventCtrl,
