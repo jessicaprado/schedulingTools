@@ -1,17 +1,15 @@
-(function() {
+angular
+	.module('schedulingTools', [
+		//global dependencies
+		'ui.router',
 
-	angular
-		.module('schedulingTools', [
-			//global dependencies
-			'ui.router',
+		//features
+		'schedulingTools.photographer',
+		'schedulingTools.assist'
+		])
+	.config(appConfig);
 
-			//features
-			'schedulingTools.photographer',
-			'schedulingTools.assist'
-			])
-		.config(appConfig);
+function appConfig($urlRouterProvider) {
+	$urlRouterProvider.otherwise('/');
+}
 
-	function appConfig($urlRouterProvider) {
-		$urlRouterProvider.otherwise('/');
-	}
-})();
