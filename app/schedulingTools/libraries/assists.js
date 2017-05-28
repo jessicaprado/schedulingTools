@@ -3,7 +3,6 @@ module.exports = {
         name: 'Bridal Portraits',
         link: 'bridal',
         assists: [
-            'Alicia',
             'Andrew',
             'Christy',
             'Corrine',
@@ -32,7 +31,6 @@ module.exports = {
         name: 'Family Portraits',
         link: 'family',
         assists:  [
-            'Alicia',
             'Andrew',
             'Christy',
             'Corrine',
@@ -69,7 +67,6 @@ module.exports = {
         name: 'On-Location Studio',
         link: 'family',
         assists:  [
-            'Alicia',
             'Andrew',
             'Cassie',
             'Christy',
