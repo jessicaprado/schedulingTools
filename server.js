@@ -3,9 +3,9 @@ var app = express();
 var bodyParser = require('body-parser');
 PORT = process.env.PORT || 3000;
 
-var db = require('./app/schedulingTools/services/connection');
-var Event = require('./app/schedulingTools/models/photographers/categories.model.js');
-var Photographer = require('./app/schedulingTools/models/photographers/photographers.model.js');
+//var db = require('./app/schedulingTools/services/connection');
+//var Event = require('./app/schedulingTools/models/photographers/categories.model.js');
+//var Photographer = require('./app/schedulingTools/models/photographers/photographers.model.js');
 
 app.use(express.static(__dirname + '/app'));
 

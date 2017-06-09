@@ -214,7 +214,6 @@ module.exports = {
             'Mercedes',
             'Joselyn',
             'Andrew',
-            'Christy',
             'Dan',
             'Dawn',
             'Dio',
@@ -224,7 +223,10 @@ module.exports = {
             'Jackson',
             'Jaime',
             'Jorge',
-            'Jeff'
+            'Jeff B',
+            'Jeff F',
+            'Kevin',
+            'Corrine'
         ]
     }, {
         name: 'Magic Kingdom Mini',

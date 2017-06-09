@@ -3,7 +3,7 @@ mongoose.Promise = Promise;
 
 var Schema = mongoose.Schema;
 
-var Categories = new Schema ({
+var Event = new Schema ({
 	event: {
 		type: String
 	},
@@ -13,6 +13,6 @@ var Categories = new Schema ({
 	}],
 })
 
-var Categories = mongoose.model('Categories', Categories);
+var Event = mongoose.model('Event', Event);
 
-module.exports = Categories;
+module.exports = Event;
