@@ -33,7 +33,9 @@ module.exports = {
             'Emily',
             'Jacob',
             'Jaime',
-            'Jake'
+            'Jake',
+            'Jorge',
+            'Jeff B'
         ]
     }, {
         name: 'Dessert Party',
@@ -60,7 +62,9 @@ module.exports = {
             'Emily',
             'Jacob',
             'Jaime',
-            'Joe'
+            'Joe',
+            'Jeff B',
+            'Michael'
         ]
     }, {
         name: 'Disney Performing Arts',
@@ -102,7 +106,9 @@ module.exports = {
             'Michael',
             'Jackson',
             'Jaime',
-            'Jake'
+            'Jake',
+            'Joselyn',
+            'Jeff B'
         ]
     }, {
         name: 'Escape',
@@ -139,7 +145,10 @@ module.exports = {
             'Dio',
             'Joselyn',
             'Corrine',
-            'Alicia'
+            'Howie',
+            'Javier',
+            'Kevin',
+            'Jeff F'
         ]
     }, {
         name: 'Floral',
@@ -172,8 +181,8 @@ module.exports = {
             'Mike',
             'Joe',
             'Daniel',
-            'Hillary',
-            'Jacob'
+            'Jacob',
+            'Earl'
         ]
     }, {
         name: 'Marketing',
@@ -184,7 +193,8 @@ module.exports = {
             'Daniel',
             'Jacob',
             'Jaime',
-            'Jake'
+            'Jake',
+            'Jorge'
         ]
     }, {
         name: 'Memories',
@@ -204,7 +214,8 @@ module.exports = {
             'Daryn',
             'Dean',
             'Jacob',
-            'Jaime'
+            'Jaime',
+            'Dawn'
         ]
     }, {
         name: 'Mini Session',
@@ -327,9 +338,10 @@ module.exports = {
             'Dawn',
             'Dean',
             'Earl',
-            'Hillary',
             'Jacob',
-            'Jake'
+            'Jake',
+            'Jessica',
+            'Stacia'
         ]
     }, {
         name: 'Proposal',
@@ -371,7 +383,8 @@ module.exports = {
             'Dawn',
             'Dean',
             'Jacob',
-            'Jaime'
+            'Jaime',
+            'Jeff B'
         ]
     }, {
         name: 'Wishes',
